@@ -1,0 +1,77 @@
+mixin header()
+    header
+        .logo
+        +containerAvatar()
+        //- .menu-game
+        //-     .avatar
+            //- button.btn3.btnEquipamento(data-modal="#schoolbag" tabindex=700 )
+            //-     +image('ico_schoolbag.png', 'ico', 'mochila')
+            //- .button.btn2(tabindex=701)
+            //-     +image('ico_seed.png', 'ico')
+            //-     .box_points
+            //-         p.inv sua pontuação em sementes é de
+            //-         p.point 0
+            //-         p.inv pontos
+            //- button.btn1.btnConquista(data-modal="#medal", tabindex=702 )
+            //-     +image('ico_medal.png', 'ico', 'menu medalhas')
+
+        
+        .menu-gameX
+            button.btn1.btnEquipamento.mochila( tabindex=700 )
+                +image('mochila.png', 'ico', '')
+                .list.list2
+                    .xd.xd1
+                        +image('book.png', 'ico', '')
+                        p Bloco de Anotações
+                    .xd.xd2
+                        +image('oculos.png', 'ico', '')
+                        p Óculos
+                    .xd.xd3
+                        +image('voucher.png', 'ico', '')
+                        p Voucher
+                    
+                    
+
+            button.btn2.btnConquista.conquistas( tabindex=700 )
+                +image('emblema.png', 'ico', '')
+                .list
+                    .xd.xd1
+                        +image('broche_pin1.png', 'ico', '')
+                        p Governante de Responsa
+                    .xd.xd2
+                        +image('broche_pin2.png', 'ico', '')
+                        p Expert do Compliance
+                    .xd.xd3
+                        +image('broche_pin3.png', 'ico', '')
+                        p Defensor(a) da Gestão de Riscos
+                    .xd.xd4
+                        +image('broche_pin4.png', 'ico', '')
+                        p Diplomata do Código de Conduta
+                    
+                    
+
+        .progress(tabindex=-1)
+            p(tabindex=-1) Progresso
+            .porc
+                .porcInt
+
+        .boxButtons
+            //- button.btnAudio(tabindex=703, aria-label="Alternar Efeitos Sonoros (Pressione o botão enter para habilitar ou desabilitar.)")
+            //-     +image('btn_audio_pause.png','ico playAudio')
+            //-     +image('btn_audio_play.png','ico pauseAudio hide')
+            //- button.btnMenu(onclick="navigate.goto('03_tela')", tabindex=704, aria-label="Acessar tela inicial do curso.")
+            //-     +image('btn_home.png','ico')
+            button.btnMenu(data-modal="#attention" tabindex=704, aria-label="Acessar tela inicial do curso.")
+                +image('btn_home.png','ico')
+            button.btnMap(onclick="navigate.goto('07_tela')" tabindex=705, aria-label="Acessar mapa da jornada.")
+                +image('btn_map.png','ico')
+            button.btnHelp(data-modal="#help" tabindex=706, aria-label="Acessar ajuda.")
+                +image('btn_help.png','ico')
+        
+        .barraPoster.barraPoster0
+            .barr
+            +image('poster0.png', 'poster poster0', '')
+            +image('poster1.png', 'poster poster1', '')
+            +image('poster2.png', 'poster poster2', '')
+            +image('poster3.png', 'poster poster3', '')
+            +image('poster4.png', 'poster poster4', '')

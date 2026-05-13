@@ -1,0 +1,65 @@
+.container-accordeon {
+    width: 100%;
+    margin: 0 auto;
+
+    .corpbtn {
+        width: 100%;
+
+        .accordeon-title {
+            width: 100%;
+            background-color: #00a26c;
+            margin: 0.5em 0 0;
+            border-radius: 3em;
+            padding: 0.2em 1em;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            z-index: 1;
+            color: #ffffff;
+
+            h3 {
+                font-weight: bold;
+                color: #ffffff !important;
+            }
+
+            .seta {
+                width: 2em;
+                height: 2em;
+                background-image: url(../assets/img/seta-bottom.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                margin-top: .5em;
+                transition-duration: .3s;
+            }
+
+            &.is-opened {
+                background-color: #C9D400;
+                color: #17344D;
+
+                h3 {
+                    color: #17344D !important;
+                }
+
+                .seta {
+                    background-image: url(../assets/img/seta-top.png);
+                    transform: rotate(180deg);
+                    margin: 0 0 0.5em;
+                }
+            }
+        }
+
+        .accordeon-texto {
+            display: none;
+            background-color: #ffffff;
+            padding: 2.5em 1em 1em;
+            margin: -1.5em auto 0;
+            border-radius: 0 0 1em 1em;
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.38);
+
+            p {
+                color: #17344D;
+            }
+        }
+    }
+}
