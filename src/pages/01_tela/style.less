@@ -128,25 +128,26 @@ body {
 }
 
 h1 {
-    font-size: 1.6em;
+    font-size: 1.6em;line-height: 1.3;
     font-weight: bold;
     color: #17344D;
 }
 
 h2 {
-    font-size: 1.45em;
+    font-size: 1.45em;line-height: 1.3;
     font-weight: bold;
     color: #17344D;
 }
 
 h3 {
-    font-size: 1.25em;
+    font-size: 1.3em;line-height: 1.3;
     font-weight: bold;
     color: #17344D;
 }
 
 p {
-    font-size: 0.9em;
+    font-size: 1.1em;
+    line-height: 1.3;
     color: #17344D;
 }
 
@@ -155,7 +156,7 @@ h1+p, h1+ul, h2+p, h3+p, h2+ul, p+ul, ul+p{
 }
 
 p+p {
-    margin-top: 0.8em;
+    margin-top: 1.1em;
 }
 
 li{
@@ -291,7 +292,7 @@ li{
     .boxright {
         position: absolute;
         width: 22em;
-        top: 10.4em;
+        top: 7.4em;
         left: 8.6em;
     }
 }
@@ -432,15 +433,16 @@ li{
 .sec7 {
     position: relative;
     padding: 4.6em 7.7em 0em;
-    height: 55.8em;
+    height: 44.8em;
+    background-color: #fff;
 
     h2 {
-        color: #ffffff;
+        color: #17344D;
         margin: 0 0 0.9em;
     }
 
     p {
-        color: #ffffff;
+        color: #17344D;
     }
 
     p + p {
@@ -452,7 +454,14 @@ li{
     }
 
     .listMod {
-        height: 34em !important;
+        height: 16em !important;
+        flex-wrap: wrap;
+        gap: 1em 1em;
+        justify-content: flex-start;
+        background-color: transparent;
+        p {
+            color: #fff;
+        }
     }
 
     .imgFixa {
@@ -498,9 +507,9 @@ li{
 
     .boxright {
         position: absolute;
-        width: 22em;
-        top: 8.5em;
-        right: 6.8em;
+        width: 25em;
+        top: 3.5em;
+        right: 5em;
 
         h1, p, li, h2{
             color: #0D3C5C;
@@ -544,7 +553,7 @@ li{
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
-            top: 10.4rem;
+            top: 8.4rem;
             left: 8.1rem;
             h2, p {
                 color: #ffffff;
@@ -660,6 +669,10 @@ li{
         position: relative;
         text-align: center;
         top: -4rem;
+    }
+
+    p {
+        text-align: center;
     }
 
     .textBase{
@@ -955,8 +968,9 @@ li{
 
     img.imgFixa {
         position: absolute;
-        width: 23em;
-        top: 4.7em;
+        width: 17em;
+        top: 8.7em;
+        left: 14.5em;
     }
 
     .it{
@@ -1038,6 +1052,9 @@ li{
         .contIt {
             background-color: #1A3D59;
         }
+        p {
+            background-color: #1A3D59;
+        }
     }
 
     .it2,
@@ -1053,7 +1070,7 @@ li{
     .it1 {
         position: absolute;
         bottom: 4em;
-        left: 6em;
+        left: 2.6em;
         display: flex;
         align-items: center;
         flex-direction: row-reverse;
@@ -1067,7 +1084,7 @@ li{
     .it2 {
         position: absolute;
         bottom: 9.6em;
-        left: 4.2em;
+        left: 0.9em;
         display: flex;
         align-items: center;
         flex-direction: row-reverse;
@@ -1081,7 +1098,7 @@ li{
     .it3 {
         position: absolute;
         bottom: 14.8em;
-        left: 6.6em;
+        left: 3.6em;
         display: flex;
         align-items: center;
         flex-direction: row-reverse;
@@ -1095,7 +1112,7 @@ li{
     .it4 {
         position: absolute;
         bottom: 16.8em;
-        left: 19em;
+        left: 17em;
         display: flex;
         align-items: center;
         flex-direction: column-reverse;
@@ -1112,7 +1129,7 @@ li{
     .it5 {
         position: absolute;
         bottom: 14.8em;
-        right: 6em;
+        right: 4.3em;
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -1129,7 +1146,7 @@ li{
     .it6 {
         position: absolute;
         bottom: 9.4em;
-        right: 2.3em;
+        right: .4em;
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -1146,7 +1163,7 @@ li{
     .it7 {
         position: absolute;
         bottom: 3.4em;
-        right: 4.6em;
+        right: 3.6em;
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -1161,9 +1178,9 @@ li{
     }
 
     .it8 {
-        position: absolute;
-        bottom: 22.1em;
-        right: -0.3em;
+        // position: absolute;
+        // bottom: 22.1em;
+        // right: -0.3em;
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -1174,14 +1191,14 @@ li{
             }
         }
         p {
-            width: 12em;
+            width: 17.5em;
         }
     }
 
     .it9 {
-        position: absolute;
-        bottom: 11.7em;
-        right: -0.4em;
+        // position: absolute;
+        // bottom: 11.7em;
+        // right: -0.4em;
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -1192,61 +1209,61 @@ li{
             }
         }
         p {
-            width: 12em;
+            width: 17.5em;
         }
     }
 
     .it10 {
-        position: absolute;
-        bottom: 1.1em;
-        right: 18.4em;
+        // position: absolute;
+        // bottom: 1.1em;
+        // right: 18.4em;
         display: flex;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
         .contIt {
             width: 4em;
             &::before {
-                bottom: -.5em;
+                right: -.5em;
             }
         }
         p {
-            width: 12em;
+            width: 17.5em;
         }
     }
 
     .it11 {
-        position: absolute;
-        bottom: 12.4em;
-        left: -3.3em;
+        // position: absolute;
+        // bottom: 12.4em;
+        // left: -3.3em;
         display: flex;
         align-items: center;
-        flex-direction: row-reverse;
+        flex-direction: row;
         .contIt {
             width: 4em;
             &::before {
-                left: -.5em;
+                right: -.5em;
             }
         }
         p {
-            width: 15em;
+            width: 17.5em;
         }
     }
 
     .it12 {
-        position: absolute;
-        bottom: 22em;
-        left: -3.3em;
+        // position: absolute;
+        // bottom: 22em;
+        // left: -3.3em;
         display: flex;
         align-items: center;
-        flex-direction: row-reverse;
+        flex-direction: row;
         .contIt {
             width: 4em;
             &::before {
-                left: -.5em;
+                right: -.5em;
             }
         }
         p {
-            width: 15em;
+            width: 17.5em;
         }
     }
 
@@ -1254,49 +1271,62 @@ li{
         position: fixed;
         width: 100%;
         height: 100%;
-        background-color: #fff;
+        background-color: #0008;
+	    backdrop-filter: blur(5px);
         top: 0;
         left: 0;
         z-index: 999999;
         &.blue {
             background-color: #17344D;
-            .contentMod {
-                .contentModBase {
-                    .infMod {
-                        h1 {
-                            color: #ffffff;
-                        }
-                        p {
-                            color: #ffffff;
-                        }
-                    }
-                }
-                .infoOrange {
-                    background-color: #E33800;
-                    position: relative;
-                    padding: 1em 2em 1em 3em;
-                    margin: 3em 0 0;
-                    border-radius: 0 0 0 3em;
-                    .ico {
-                        position: absolute;
-                        left: -1.5em;
-                        top: -1.5em;
-                        width: 5em;
+            
+        }
+        .contentMod {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            
+            .contentModBase {
+                background-color: #ffffff;
+                padding: 3em;
+                position: relative;
+                max-width: 58em;
+                max-height: 32em;
+                overflow: auto;
+                .infMod {
+                    h1 {
+                        color: #ffffff;
                     }
                     p {
                         color: #ffffff;
                     }
                 }
             }
+            .infoOrange {
+                background-color: #E33800;
+                position: relative;
+                padding: 1em 2em 1em 3em;
+                margin: 3em 0 0;
+                border-radius: 0 0 0 3em;
+                .ico {
+                    position: absolute;
+                    left: -1.5em;
+                    top: -1.5em;
+                    width: 5em;
+                }
+                p {
+                    color: #ffffff !important;
+                }
+            }
         }
 
         .closeMod{
             position: absolute;
-            width: 3rem;
-            height: 3rem;
+            width: 2rem;
+            height: 2rem;
             cursor: pointer;
-            top: 2rem;
-            right: 2rem;
+            top: 1rem;
+            right: 1rem;
             transition: all 0.2s ease;
             transform: scale(1);
             z-index: 9999;
@@ -1353,7 +1383,7 @@ li{
 
                 .infMod{
                     position: relative;
-                    width: 90%;
+                    width: 100%;
                     &+.infMod {
                         margin-top: 3rem;
                     }
@@ -1427,8 +1457,6 @@ li{
         }
     }
 }
-
-
 
 .slide-ref{
     position: relative;
