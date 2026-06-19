@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 682.667 682.667" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+    <g>
+        <defs>
+            <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                <path d="M0 512h512V0H0Z" fill="#1a3d59" opacity="1" data-original="#000000"></path>
+            </clipPath>
+        </defs>
+        <g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)">
+            <path d="m0 0-22.439.908c-28.609 1.158-52.06-23.434-52.06-52.076h-50.655v-108.961l114.044 46.883c42.127 4.665 129.521 6.167 163.406 18.698l134.053 64.447c9.527 4.731 9.157 12.639 7.75 16.267-6.956 17.936-27.59 18.736-47.521 13.394L135.329-36.323M39.485-53.152l73.874 4.464c34.028 2.055 30.311 42.874-.992 44.141l-22.446.908" style="stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.613;stroke-dasharray:none;stroke-opacity:1" transform="translate(135.153 170.13)" fill="none" stroke="#1a3d59" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.613" stroke-dasharray="none" stroke-opacity="" data-original="#000000" opacity="1" class=""></path>
+            <path d="m0 0-73.874-4.464c-34.028-2.056-30.312-42.874.991-44.141l134.808-5.456c28.608-1.157 52.059 23.435 52.059 52.077h50.656v108.961L50.596 60.093C8.469 55.428-78.926 53.927-112.811 41.396l-134.052-64.447c-9.529-4.732-9.158-12.639-7.75-16.267 6.955-17.936 27.59-18.736 47.519-13.394l111.25 35.883" style="stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.613;stroke-dasharray:none;stroke-opacity:1" transform="translate(337.36 395.025)" fill="none" stroke="#1a3d59" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.613" stroke-dasharray="none" stroke-opacity="" data-original="#000000" opacity="1" class=""></path>
+            <path d="M0 0c-13.114 13.073-34.575 13.073-47.69 0-35.631-35.518 32.964-97.59 56.522-103.882C32.391-97.59 100.986-35.518 65.355 0 52.24 13.073 30.779 13.073 17.664 0 12.407-5.24 4.711-4.696 0 0Z" style="stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926;stroke-dasharray:none;stroke-opacity:1" transform="translate(247.167 303.04)" fill="none" stroke="#1a3d59" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-dasharray="none" stroke-opacity="" data-original="#000000" opacity="1" class=""></path>
+            <path d="M0 0h.007" style="stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.613;stroke-dasharray:none;stroke-opacity:1" transform="translate(180.11 168.31)" fill="none" stroke="#1a3d59" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.613" stroke-dasharray="none" stroke-opacity="" data-original="#000000" opacity="1" class=""></path>
+        </g>
+    </g>
+</svg>

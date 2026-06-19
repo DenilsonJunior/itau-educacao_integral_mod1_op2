@@ -31,6 +31,7 @@ events.on("ready", function () {
     });
 
     controlModal();
+    controlModal2();
     slideBase();
 
     $(".completeScorm").isInViewportComplete({
@@ -76,6 +77,33 @@ function controlModal() {
     });
 
 
+}
+
+function controlModal2() {
+  $(".listMod2").each(function () {
+    var $parent = $(this);
+    $parent.find(".it").addClass("inactive");
+    $parent.find(".it1").removeClass("inactive");
+    $parent.find(".mod").css("display", "none");
+
+    $parent.find(".it").on("click", function () {
+      var current = parseInt($(this).attr("mod"));
+
+      $parent.find(".it" + current).addClass("active");
+      $parent.find(".mod" + current).css("display", "flex");
+      $parent.find(".mod" + current + " .closeMod").attr("mod", current);
+
+      $(".mr-full").css("overflow-y", "hidden");
+    });
+
+    $parent.find(".mod .closeMod").on("click", function () {
+      var current = parseInt($(this).attr("mod"));
+      var next = current + 1;
+      $parent.find(".mod" + current).css("display", "none");
+      $parent.find(".it" + next).removeClass("inactive");
+      $(".mr-full").css("overflow-y", "scroll");
+    });
+  });
 }
 
 function slideBase() {
